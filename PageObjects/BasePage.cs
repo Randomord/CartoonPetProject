@@ -8,11 +8,18 @@ namespace PageObjects
 
     public class BasePage
     {
-        protected IWebDriver driver;
-        public BasePage(IWebDriver webDriver)
+        protected IWebDriver _driver;
+        public BasePage(IWebDriver driver)
         {
 
-            driver = webDriver;
+            _driver = driver;
+
+        }
+
+        public void GoTo()
+        {
+
+            _driver.Navigate().GoToUrl("https://cn-fan.tv/");
 
         }
 

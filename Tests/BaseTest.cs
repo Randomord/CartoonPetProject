@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System;
 
 
@@ -7,9 +8,9 @@ namespace Tests
 {
     public class BaseTest
     {
-        protected IWebDriver driver;
-
-
+        protected IWebDriver _driver;
+    
+     
     }  
 
 }

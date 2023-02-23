@@ -15,8 +15,7 @@ namespace Tests
         public void FirstTest()
         {
 
-            MainPage main = new MainPage(driver);
-
+           
         }
 
 

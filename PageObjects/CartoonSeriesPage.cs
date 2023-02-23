@@ -14,7 +14,7 @@ namespace PageObjects
 
         }
 
-        private IWebElement SeasonNumbers => driver.FindElement(By.ClassName(""));
+        private IWebElement SeasonNumbers => _driver.FindElement(By.ClassName(""));
 
 
     }
